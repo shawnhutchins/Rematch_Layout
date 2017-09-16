@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+}
+
+
+.outerContainer {
+  width: 1280px;
+  margin: auto;
+  overflow: hidden;
+  background: lightgray;
+}
+
+
+.header {
+  background: lightblue;
+  width: 99%;
+  margin: auto;
+}
+.headerImage {
+  background: gray;
+  width: 99%;
+  height: 180px;
+  margin: auto;
+  text-align: center;
+}
+.headerImage > img {
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.menuBar {
+  background: darkgray;
+  width: 99%;
+  margin: auto;
+}
+.menuNav {
+  text-align: center;
+  overflow: hidden;
+}
+.menuMain {
+  padding: 0px;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: .085em;
+  color: gray;
+}
+.menuItem {
+  display: inline-block;
+}
+.menuItem > a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+
+.showCaseWrapper {
+  background: pink;
+  width: 99%;
+  margin: auto;
+}
+.showCase {
+  background: gray;
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+  margin: 2% auto;
+}
+
+
+.contentBody {
+  background: lightblue;
+  width: 99%;
+  overflow: hidden;
+  margin: 2% auto;
+}
+.fContentWrapper {
+  background: lightgreen;
+  width: 45.5%;
+  margin: 2% 2% 2% 2%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+.featuredContent {
+  margin: 2% auto;
+  background: darkgray;
+  width: 500px;
+  height: 300px;
+}
+
+
+.foot {
+  background: pink;
+  width: 99%;
+  margin: auto;
+}
+
+.socialMedia {
+  background: lightyellow;
+  width: 99%;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+.socialMedia > a {
+  background: darkgray;
+  margin: 0 1.25%;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px 20px;
+}
+  
+.menuFoot {
+  background: lightblue;
+  width: 99%;
+  height: 130px;
+  margin: auto;
+}
+
+
+@media only screen and (max-width : 1280px),
+only screen and (max-device-width : 1280px){
+  .outerContainer {width: 100%;}
+}
+@media only screen and (max-width : 760px),
+only screen and (max-device-width : 760px){
+  .fContentWrapper {width: 99%;}
+}
+@media only screen and (max-width : 530px),
+only screen and (max-device-width : 530px){
+  .socialMedia > a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 21px;
+    border-radius: 3px 12px;
+  }
+}
