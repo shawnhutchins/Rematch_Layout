@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: sans-serif;
 }
 
 
@@ -121,11 +122,27 @@ body {
   border-radius: 5px 20px;
 }
   
-.menuFoot {
+.footMenuBar {
   background: lightblue;
   width: 99%;
   height: 130px;
   margin: auto;
+  text-align: center;
+}
+.footMenu {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.footMenuItem {
+  display: inline-block;
+}
+.footMenuItem:not(:first-child):before {
+  content: "/";
+}
+.footMenuItem > a {
+  line-height: 3;
+  font-weight: 500;
 }
 
 
