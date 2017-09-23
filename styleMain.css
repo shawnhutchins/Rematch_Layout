@@ -68,10 +68,22 @@ body {
 }
 .showCase {
   background: gray;
-  width: 600px;
+  width: 800px;
   height: 350px;
   border-radius: 5px;
   margin: 2% auto;
+}
+
+.mySlides {
+  display: none;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+}
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
 
 
