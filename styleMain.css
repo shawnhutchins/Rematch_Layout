@@ -64,13 +64,13 @@ body {
 .showCaseWrapper {
   background: pink;
   width: 99%;
-  margin: auto;
+  margin: 2% auto;
 }
 .showCase {
   background: gray;
   width: 800px;
   border-radius: 5px;
-  margin: 2% auto;
+  margin: auto;
 }
 
 .mySlides {
