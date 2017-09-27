@@ -1,0 +1,7 @@
+- Replace the few w3 css classes that are being used in the slideshow so that 
+we can remove the w3 link.
+
+- Once the site is on a server separate the header and footer so they can be 
+added to the other pages.
+
+

@@ -86,7 +86,7 @@ body {
 }
 
 
-.contentBody {
+.contentMain {
   background: lightblue;
   width: 99%;
   overflow: hidden;
@@ -108,7 +108,7 @@ body {
 }
 
 
-.foot {
+.footer {
   background: pink;
   width: 99%;
   margin: auto;
@@ -158,9 +158,41 @@ body {
 }
 
 
+
+.streamWrapper {
+  background: lightgreen;
+  text-align: center;
+}
+.streamWindow {
+  background: pink;
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 2%;
+}
+.streamChat {
+  background: lightyellow;
+  display: inline-block;
+  width: 30%;
+  padding: 2%
+}
+.streamSchedule {
+
+}
+
+
 @media only screen and (max-width : 1280px),
 only screen and (max-device-width : 1280px){
   .outerContainer {width: 100%;}
+}
+@media only screen and (max-width : 1025px),
+only screen and (max-device-width : 1025px){
+  .streamWindow {
+    display: inline;
+  }
+  .streamChat {
+    display: inline;
+  }
 }
 @media only screen and (max-width : 760px),
 only screen and (max-device-width : 760px){
@@ -187,3 +219,7 @@ only screen and (max-device-width : 530px){
     content: none;
   }
 }
+
+
+
+
