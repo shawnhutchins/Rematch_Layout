@@ -6,6 +6,7 @@
 <html>
   <head>
     <title>Rematch Gaming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="outerContainer">
@@ -14,22 +15,20 @@
 
       <div class="contentMain">
         <h4 style="text-align: center">The Stream Page</h4>
-        <div class="streamWrapper">
-          <div class="streamWindow">
-            <iframe src="https://player.twitch.tv/?stream=26348585888&channelId=165533043&autoplay=false" 
+        <div class="streamMainWrapper">
+          <div class="streamTwitchWrapper">
+            <iframe class="streamTwitch"
+              src="https://player.twitch.tv/?channel=rematch_gaming" 
               frameborder="0" 
               allowfullscreen="true" 
-              scrolling="no" 
-              height="378" 
-              width="620">
+              scrolling="no">
             </iframe>
           </div>
-          <div class="streamChat">
-            <iframe src="https://www.twitch.tv/rematch_gaming/chat?popout=" 
+          <div class="streamChatWrapper">
+            <iframe class="streamTwitchChat"
+              src="https://www.twitch.tv/rematch_gaming/chat?popout=" 
               frameborder="0" 
-              scrolling="no" 
-              height="500" 
-              width="350">
+              scrolling="no">
             </iframe>
           </div>
         </div>
