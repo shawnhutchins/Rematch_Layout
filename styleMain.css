@@ -11,7 +11,7 @@ body {
   background: lightgray;
 }
 
-
+/* Header -------------------*/
 .header {
   background: lightblue;
   width: 99%;
@@ -30,7 +30,7 @@ body {
   max-width: 100%;
   vertical-align: middle;
 }
-
+/* Header Menu Bar -----------*/
 .menuBar {
   background: darkgray;
   width: 99%;
@@ -60,7 +60,7 @@ body {
   padding: 15px;
 }
 
-
+/* Show Case ----------------*/
 .showCaseWrapper {
   background: pink;
   width: 99%;
@@ -72,7 +72,7 @@ body {
   border-radius: 5px;
   margin: auto;
 }
-
+/* Slideshow ---------------------*/
 .mySlides {
   display: none;
 }
@@ -85,7 +85,7 @@ body {
   padding: 0;
 }
 
-
+/* Main Content -------------------*/
 .contentMain {
   background: lightblue;
   width: 99%;
@@ -107,13 +107,13 @@ body {
   height: 300px;
 }
 
-
+/* Footer Bar ------------------------*/
 .footer {
   background: pink;
   width: 99%;
   margin: auto;
 }
-
+/* Social ---------------------*/
 .socialMedia {
   background: lightyellow;
   width: 99%;
@@ -132,7 +132,7 @@ body {
   text-align: center;
   border-radius: 5px 20px;
 }
-  
+/* Foot Menu ---------------------------*/
 .footMenuBar {
   background: lightblue;
   width: 99%;
@@ -157,8 +157,7 @@ body {
   text-decoration: none;  
 }
 
-
-
+/* Stream Page ------------------*/
 .streamMainWrapper {
   background: lightgreen;
   text-align: center;
@@ -187,7 +186,42 @@ body {
 
 }
 
+/* About Page ------------------*/
+.aboutWrapper {
+  background: lightgreen;
+  margin: auto;
+  width: 99%;
+  padding: 2%;
+}
+.aboutGamer {
+  background: pink;
+  height: auto;
+  width: 30%;
+  display: inline-block;
+  margin: 1%;
+  text-align: center;
+}
+.aboutGamer > img {
+  margin: 2%;
+  height: 350px;
+  width: 350px;
+}
+.aboutGamer > span {
+  font-size: 25pt;
+  transform: uppercase;
+}
+.aboutGamer > p {
+  margin: 2%;
+}
+.aboutGamerSocial {
+  background: lightyellow;
+  margin: 2%;
+}
+.aboutGamerSocial > a {
 
+}
+
+/* Media Queries -------------------------------*/
 @media only screen and (max-width : 1280px),
 only screen and (max-device-width : 1280px){
   .outerContainer {width: 100%;}
