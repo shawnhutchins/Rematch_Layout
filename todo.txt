@@ -6,3 +6,6 @@ added to the other pages.
 
 - left off making the routes work to the about page and stream page. Still 
 need to tell them where their css was moved too.
+
+- favicon installed where it needs to be and uncommented the line to enable
+it in "app.js" but I am not seeing it show up. Need to look into this.

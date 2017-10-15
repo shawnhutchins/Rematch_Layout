@@ -3,15 +3,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home');
+  res.render('pages/home');
 });
 
 router.get('/about', function( req, res, next) {
-  res.render('about');
+  res.render('pages/about');
 });
 
 router.get('/stream', function( req, res, next) {
-  res.render('stream');
+  res.render('pages/stream');
 });
 
 module.exports = router;
