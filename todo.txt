@@ -4,4 +4,5 @@ we can remove the w3 link.
 - Once the site is on a server separate the header and footer so they can be 
 added to the other pages.
 
-
+- left off making the routes work to the about page and stream page. Still 
+need to tell them where their css was moved too.
