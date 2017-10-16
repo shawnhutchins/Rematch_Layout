@@ -1,56 +1,13 @@
 <!doctype html>
 
-<link rel="stylesheet", href="stylesheets/styleMain.css", type="text/css">
-<link rel="stylesheet", href="https://www.w3schools.com/w3css/4/w3.css">
-
-
 <html>
     <head>
-      <script type="text/javascript" src="https://use.fontawesome.com/22abcc1ddf.js"></script>
-      <title>Rematch Gaming</title>
+      <% include ../partials/head %>
     </head>
     <body>
       <div class="outerContainer">
         <div class="header">
-          <div class="headerImage">
-            <img src="images/test_site_icon.png">
-          </div>
-          <div class="menuBar">
-            <nav class="menuNav" role="navigation">
-              <ul class="menuMain">
-                <li class="menuItem">
-                  <a href="#">
-                    <span>Home</span>
-                  </a>
-                </li>
-                <li class="menuItem">
-                  <a href="#">
-                    <span>Videos</span>
-                  </a>
-                </li>
-                <li class="menuItem">
-                  <a href="/stream">
-                    <span>Stream</span>
-                  </a>
-                </li>
-                <li class="menuItem">
-                  <a href="#">
-                    <span>Blog</span>
-                  </a>
-                </li>
-                <li class="menuItem">
-                  <a href="/about">
-                    <span>About</span>
-                  </a>
-                </li>
-                <li class="menuItem">
-                  <a href="#">
-                    <span>Contact</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <% include ../partials/header %>
         </div>
         <div class="showCaseWrapper">
           <div class="showCase w3-content w3-display-container" style="max-width:800px">
@@ -78,45 +35,7 @@
           </div>
         </div>
         <div class="footer">
-          <div class="socialMedia">
-            <a href="https://www.facebook.com/">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="https://twitter.com/">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.youtube.com/">
-              <i class="fa fa-youtube" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.twitch.tv/">
-              <i class="fa fa-twitch" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.reddit.com/">
-              <i class="fa fa-reddit" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="footMenuBar">
-            <ul class="footMenu">
-              <li class="footMenuItem">
-                <a href="#">Home</a>
-              </li>
-              <li class="footMenuItem">
-                <a href="#">Videos</a>
-              </li>
-              <li class="footMenuItem">
-                <a href="/stream">Stream</a>
-              </li>
-              <li class="footMenuItem">
-                <a href="#">Blog</a>
-              </li>
-              <li class="footMenuItem">
-                <a href="/about">About</a>
-              </li>
-              <li class="footMenuItem">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <% include ../partials/footer %>
         </div>
       </div>
       <script type="text/javascript" src="javascripts/slideshow.js"></script>
