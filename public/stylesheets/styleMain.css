@@ -126,11 +126,13 @@ body {
   margin: 0 1.25%;
   width: 54px;
   height: 54px;
-  line-height: 54px;
   font-size: 25px;
   display: inline-block;
   text-align: center;
   border-radius: 5px 20px;
+}
+.socialMedia > a > i {
+  line-height: 54px;
 }
 /* Foot Menu ---------------------------*/
 .footMenuBar {
@@ -143,7 +145,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0px;
-  padding-bottom: 35px;
+  padding: 20px 0px 130px 0px;
 }
 .footMenuItem {
   display: inline-block;
@@ -154,7 +156,8 @@ body {
 .footMenuItem > a {
   line-height: 3;
   font-weight: 500;
-  text-decoration: none;  
+  text-decoration: none;
+  font-size: 12pt;
 }
 
 /* Stream Page ------------------*/
@@ -196,15 +199,17 @@ body {
 .aboutGamer {
   background: pink;
   height: auto;
-  width: 30%;
+  width: 31%;
   display: inline-block;
   margin: 1%;
   text-align: center;
+  border-radius: 5px;
 }
 .aboutGamer > img {
   margin: 2%;
   height: 350px;
   width: 350px;
+  border-radius: 5px;
 }
 .aboutGamer > span {
   font-size: 25pt;
