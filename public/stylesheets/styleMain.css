@@ -90,7 +90,7 @@ body {
   background: lightblue;
   width: 99%;
   overflow: hidden;
-  margin: 2% auto;
+  margin: auto;
 }
 .fContentWrapper {
   background: lightgreen;
@@ -166,27 +166,36 @@ body {
   text-align: center;
   width: 99%;
   margin: auto;
-  display: table;
 }
 .streamTwitchWrapper {
   background: pink;
-  display: table-cell;
-  vertical-align: middle;
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
 }
 .streamTwitch {
-  height: 504px;
-  width: 896px;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .streamChatWrapper {
-  background: lightyellow;
-  display: table-cell;
+  background: darkgray;
+  display: inline-block;
 }
 .streamTwitchChat {
   height: 500px;
   width: 350px;
+  margin: 15px;
+  display: inline-block;
 }
 .streamSchedule {
-
+  margin: 15px;
+  vertical-align: top;
+  display: inline-block;
 }
 
 /* About Page ------------------*/
@@ -230,12 +239,10 @@ body {
 @media only screen and (max-width : 1280px),
 only screen and (max-device-width : 1280px){
   .outerContainer {width: 100%;}
-  .streamTwitch {height: 378px; width: 620px;}
 }
 @media only screen and (max-width : 985px),
 only screen and (max-device-width : 985px){
-  .streamMainWrapper > div {
-    display: inline-block;
+
   }
 }
 @media only screen and (max-width : 760px),
@@ -255,6 +262,9 @@ only screen and (max-device-width : 530px){
     line-height: 35px;
     font-size: 21px;
     border-radius: 3px 12px;
+  }
+  .socialMedia > a > i {
+    line-height: 35px;
   }
   .footMenuItem {
     display: block;
