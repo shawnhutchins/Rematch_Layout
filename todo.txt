@@ -7,7 +7,7 @@ we can remove the w3 link.
 move the arrows up to the center of the sides and make them fade away when not
 moused over.
 
-- Make the slides change every few seconds.
+Done - Make the slides change every few seconds.
 
 - Descide weather or not to make the slideshow go to the edges of the outer 
 container or not.
@@ -15,9 +15,9 @@ container or not.
 - Finalize the responsive design.
 
 STREAM
-- Make the stream resize actively while retaining its aspect ratio.
+Done - Make the stream resize actively while retaining its aspect ratio.
 
-- Refine the responsive design, the smaller resolutions need work.
+Done - Refine the responsive design, the smaller resolutions need work.
 
 THEMING
 - Start testing colors out
