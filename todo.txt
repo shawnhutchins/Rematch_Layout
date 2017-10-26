@@ -1,16 +1,21 @@
+HOME
+- Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
+featured content. Also simpler for someone else to edit without touching the layout.
 
 SLIDESHOW
 - Replace the few w3 css classes that are being used in the slideshow so that 
 we can remove the w3 link.
 
-- Rework the controls. Maybe get rid of the arrows and just have the dots, or 
-move the arrows up to the center of the sides and make them fade away when not
-moused over.
+Future - Rework the controls. Move the dots to just underneath the center of the slides. 
+Also move the arrows outside of the slides. I'm thinking vertically centered on
+the sides of the slides.
+
+- Make the slideshow stop changing while the mouse is hovering over the slideshow.
 
 Done - Make the slides change every few seconds.
 
-- Descide weather or not to make the slideshow go to the edges of the outer 
-container or not.
+Done - Descide weather or not to make the slideshow go to the edges of the outer 
+container or not. I plan on leaving it how it is now.
 
 - Finalize the responsive design.
 

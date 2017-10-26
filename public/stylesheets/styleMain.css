@@ -103,8 +103,17 @@ body {
 .featuredContent {
   margin: 2% auto;
   background: darkgray;
-  width: 500px;
-  height: 300px;
+}
+.featuredContent > img {
+  width: 512px;
+  height: 288px;
+
+}
+.featuredContent > h3 {
+
+}
+.featuredContent > span {
+
 }
 
 /* Footer Bar ------------------------*/
@@ -240,10 +249,9 @@ body {
 only screen and (max-device-width : 1280px){
   .outerContainer {width: 100%;}
 }
-@media only screen and (max-width : 985px),
-only screen and (max-device-width : 985px){
-
-  }
+@media only screen and (max-width : 1034px),
+only screen and (max-device-width : 1034px){
+  .showCase {min-width: 100%;}
 }
 @media only screen and (max-width : 760px),
 only screen and (max-device-width : 760px){
