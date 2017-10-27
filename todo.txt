@@ -18,7 +18,7 @@ Future - Rework the controls. Move the dots to just underneath the center of the
 Also move the arrows outside of the slides. I'm thinking vertically centered on
 the sides of the slides.
 
-- Remove debug logging for the slideshow.
+Done - Remove debug logging for the slideshow.
 
 Done - Make the slides change every few seconds.
 

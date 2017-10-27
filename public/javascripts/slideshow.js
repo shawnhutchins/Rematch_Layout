@@ -12,12 +12,10 @@ function startSlideTimer() {
     }
     showDivs(slideIndex);
   }, slideDelay);
-  console.log("timer  set"); 
 }
 
 function stopSlideTimer() {
   clearTimeout(slideTimer);
-  console.log("clearing the timer");
 }
 
 function plusDivs(n) {
@@ -29,8 +27,6 @@ function currentDiv(n) {
 }
 
 function showDivs(n) {
-  console.log(n + " n at the start");
-  console.log(slideIndex + " slideIndex at the start");
   var i;
   var dots = document.getElementsByClassName("demo");
   //if the value passed is larger then there are slides se back to the start
@@ -45,7 +41,6 @@ function showDivs(n) {
     mySlides[i].style.display = "none";
   }
   //make the selected slide visible
-  console.log(slideIndex + " slideIndex right before error");
   mySlides[slideIndex-1].style.display = "block";
 
   //removes the w3-white class with nothing making them empty
