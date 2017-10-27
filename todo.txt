@@ -1,3 +1,7 @@
+GENERAL
+- Finalize the responsive design.
+
+
 HOME
 - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
@@ -8,8 +12,10 @@ HEADER
 
 Done - Comment out currently unused links in the header and footer menu.
 
+
 BREAK-POINTS
-- Break point 760 on the home page is causing uncentered content. 
+Done - Break point 760 on the home page is causing uncentered content. 
+
 
 SLIDESHOW
 - Replace the few w3 css classes that are being used in the slideshow so that 
@@ -28,12 +34,12 @@ Done - Make the slides change every few seconds.
 Done - Descide weather or not to make the slideshow go to the edges of the outer 
 container or not. I plan on leaving it how it is now.
 
-- Finalize the responsive design.
 
 STREAM
 Done - Make the stream resize actively while retaining its aspect ratio.
 
 Done - Refine the responsive design, the smaller resolutions need work.
+
 
 THEMING
 - Start testing colors out

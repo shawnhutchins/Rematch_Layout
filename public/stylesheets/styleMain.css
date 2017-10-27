@@ -101,6 +101,7 @@ body {
   vertical-align: top;
 }
 .featuredContent {
+  padding: 5px;
   margin: 10% auto;
   background: darkgray;
 }
@@ -110,7 +111,7 @@ body {
   position: relative;
 }
 .contentImageWrapper > img {
-  border-radius: 5px;
+  border-radius: 3px;
   max-width: 100%;
   max-height: 100%;
   position: absolute;
@@ -120,7 +121,7 @@ body {
   right: 0;
 }
 .contentInfoWrapper {
-  padding: 10px 5px;
+  padding: 8px 10px;
 }
 .contentInfoWrapper > h3 {
   margin: 5px 0 5px;
@@ -281,7 +282,7 @@ only screen and (max-device-width : 1034px){
 @media only screen and (max-width : 760px),
 only screen and (max-device-width : 760px){
   .fContentWrapper {
-    width: 99%;
+    width: 96%;
   }
   .menuItem {
     display: block;
