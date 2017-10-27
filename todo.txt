@@ -2,15 +2,23 @@ HOME
 - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
 
+HEAD
+- Make the head menu turn into a hamburger menu for the smaller resolutions or an alternative 
+
+BREAK-POINTS
+- Break point 760 on the home page is causing uncentered content. 
+
 SLIDESHOW
 - Replace the few w3 css classes that are being used in the slideshow so that 
 we can remove the w3 link.
+
+- Make the slideshow stop changing while the mouse is hovering over the slideshow.
 
 Future - Rework the controls. Move the dots to just underneath the center of the slides. 
 Also move the arrows outside of the slides. I'm thinking vertically centered on
 the sides of the slides.
 
-- Make the slideshow stop changing while the mouse is hovering over the slideshow.
+- Remove debug logging for the slideshow.
 
 Done - Make the slides change every few seconds.
 

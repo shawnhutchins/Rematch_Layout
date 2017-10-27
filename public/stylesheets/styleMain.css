@@ -101,19 +101,44 @@ body {
   vertical-align: top;
 }
 .featuredContent {
-  margin: 2% auto;
+  margin: 10% auto;
   background: darkgray;
 }
-.featuredContent > img {
-  width: 512px;
-  height: 288px;
-
+.contentImageWrapper {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
 }
-.featuredContent > h3 {
-
+.contentImageWrapper > img {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-.featuredContent > span {
-
+.contentInfoWrapper {
+  padding: 10px 5px;
+}
+.contentInfoWrapper > h3 {
+  margin: 5px 0 5px;
+  line-height: 1.2;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contentInfoWrapper > span {
+  padding: 2px;
+  font-size: 10px;
+  margin: 0;
+  line-height: 1;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Footer Bar ------------------------*/
