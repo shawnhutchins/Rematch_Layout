@@ -2,8 +2,11 @@ HOME
 - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
 
-HEAD
-- Make the head menu turn into a hamburger menu for the smaller resolutions or an alternative 
+
+HEADER
+- Make the header menu turn into a hamburger menu for the smaller resolutions or an alternative.
+
+Done - Comment out currently unused links in the header and footer menu.
 
 BREAK-POINTS
 - Break point 760 on the home page is causing uncentered content. 
