@@ -6,6 +6,8 @@ HOME
 - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
 
+ABOUT
+- Fix the responsive design.
 
 HEADER
 - Make the header menu turn into a hamburger menu for the smaller resolutions or an alternative.
