@@ -239,11 +239,12 @@ body {
   margin: auto;
   width: 99%;
   padding: 2%;
+  text-align: center;
 }
 .aboutGamer {
   background: pink;
   height: auto;
-  width: 31%;
+  width: 374px;
   display: inline-block;
   margin: 1%;
   text-align: center;
