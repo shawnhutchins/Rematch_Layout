@@ -1,0 +1,95 @@
+body {
+  background: #191919;
+}
+
+.outerContainer {
+  background: #191919;
+}
+
+.header {
+  background: #191919;
+  width: 100%;
+}
+
+.headerImage {
+  background: #191919;
+  width: 100%;
+}
+
+
+.menuBar {
+  background: #191919;
+  width: 100%;
+}
+
+.menuMain {
+  color: white;
+}
+
+.showCaseWrapper {
+  background: black;
+  width: 100%;
+}
+
+.showCase {
+  background: white;
+  min-width: 100%;
+}
+
+.contentMain {
+  background: #191919;
+  width: 100%;
+}
+
+.fContentWrapper {
+  background: #191919;
+}
+
+.featuredContent {
+  background: #999;
+}
+
+.footer {
+  background: white;
+  width: 100%;
+}
+
+.socialMedia {
+  background: white;
+  width: 100%;
+}
+
+.socialMedia > a {
+  background: white;
+}
+
+.footMenuBar {
+  background: white;
+  width: 100%;
+}
+
+.streamMainWrapper {
+  background: white;
+  width: 100%;
+}
+
+.streamTwitchWrapper {
+  background: white;
+}
+
+.streamChatWrapper {
+  background: white;
+}
+
+.aboutWrapper {
+  background: white;
+  width: 100%;
+}
+
+.aboutGamer {
+  background: white;
+}
+
+.aboutGamerSocial {
+  background: white;
+}
