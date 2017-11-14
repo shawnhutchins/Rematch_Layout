@@ -246,13 +246,13 @@ body {
   display: inline-block;
   margin: 1%;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .aboutGamer > img {
   margin: 2%;
   height: 350px;
   width: 350px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .aboutGamer > span {
   font-size: 25pt;

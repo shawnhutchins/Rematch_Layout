@@ -23,7 +23,7 @@ body {
 }
 
 .menuMain {
-  color: white;
+  color: #999;
 }
 
 .showCaseWrapper {
@@ -46,50 +46,56 @@ body {
 }
 
 .featuredContent {
-  background: #999;
+  background: #222;
+  color: #999;
+  padding: 5px;
 }
 
 .footer {
-  background: white;
+  background: #191919;
   width: 100%;
 }
 
 .socialMedia {
-  background: white;
+  background: #191919;
   width: 100%;
 }
 
 .socialMedia > a {
-  background: white;
+  background: #999;
 }
 
 .footMenuBar {
-  background: white;
+  background: #191919;
   width: 100%;
 }
 
+.footMenuItem > a {
+  color: #999;
+}
+
 .streamMainWrapper {
-  background: white;
+  background: #191919;
   width: 100%;
 }
 
 .streamTwitchWrapper {
-  background: white;
+  background: #191919;
 }
 
 .streamChatWrapper {
-  background: white;
+  background: #191919;
 }
 
 .aboutWrapper {
-  background: white;
+  background: #191919;
   width: 100%;
 }
 
 .aboutGamer {
-  background: white;
+  background: #999;
 }
 
 .aboutGamerSocial {
-  background: white;
+  background: #999;
 }
