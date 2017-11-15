@@ -10,7 +10,12 @@ ABOUT
 - Fix the responsive design.
 
 HEADER
+
 - Make the header menu turn into a hamburger menu for the smaller resolutions or an alternative.
+
+- Fix header image size.
+
+Done - Make the header image a link to the home page.
 
 Done - Comment out currently unused links in the header and footer menu.
 
@@ -48,6 +53,6 @@ THEMING
 
 - Look into how to change css with a button.
 
-- Make a test theme that overwrites the dev css colors etc.
+Done - Make a test theme that overwrites the dev css colors etc.
 
 Done - Separate the header and footer so they can be added to the other pages.
