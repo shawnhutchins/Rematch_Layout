@@ -1,13 +1,18 @@
 GENERAL
-- Finalize the responsive design.
+- Find some better fonts to try out.
 
+- Make the site mobile first by using min-width in the media querys instead of max-width.
+
+- Look into setting up the viewport more indepth. I have a 'meta' tag set but it just sets the scale to 1 for now.
 
 HOME
 - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
 
 ABOUT
-- Fix the responsive design.
+- Make the social media links on the gamer bio cards into pretty buttons.
+
+Done - Fix the responsive design.
 
 HEADER
 

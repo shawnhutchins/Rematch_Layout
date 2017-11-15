@@ -236,24 +236,26 @@ body {
   background: lightgreen;
   margin: auto;
   width: 99%;
-  padding: 2%;
+  padding: 0.5%;
   text-align: center;
 }
 .aboutGamer {
   background: pink;
   height: auto;
-  width: 374px;
+  max-width: 324px;
   display: inline-block;
-  margin: 1%;
+  margin: 2%;
   text-align: center;
   border-radius: 3px;
 }
+
 .aboutGamer > img {
-  margin: 2%;
-  height: 350px;
-  width: 350px;
+  width: 300;
+  height: 300;
+  margin: 3.5% 2%;
   border-radius: 3px;
 }
+
 .aboutGamer > span {
   font-size: 25pt;
   transform: uppercase;
@@ -282,6 +284,9 @@ only screen and (max-device-width : 760px){
   .menuItem {
     display: block;
   }
+  .aboutGamer {
+    margin: 3%;
+  }
 }
 @media only screen and (max-width : 530px),
 only screen and (max-device-width : 530px){
@@ -301,8 +306,18 @@ only screen and (max-device-width : 530px){
   .footMenuItem:not(:first-child):before {
     content: none;
   }
+  .aboutGamer {
+    width: 90%;
+    margin: 4%;
+  }
 }
-
-
-
-
+@media only screen and (max-width : 375px),
+only screen and (max-device-width : 375px){
+  .aboutGamer {
+    margin: 5%;
+  }
+  .aboutGamer > img {
+    width: 92.5%;
+    height: auto;
+  }
+}
