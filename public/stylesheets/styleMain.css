@@ -24,7 +24,7 @@ body {
   margin: auto;
   text-align: center;
 }
-.headerImage > img {
+.headerImage > a > img {
   margin: auto;
   max-height: 100%;
   max-width: 100%;
