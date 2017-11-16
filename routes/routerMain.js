@@ -3,7 +3,18 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('pages/home');
+  var featuredVideos = [
+    {
+      url: 'https://www.youtube.com/watch?v=96J5YyRn80k',
+      id: '96J5YyRn80k',
+      title: 'DREAM DADDY Ep. 2- Julian and Eli',
+      date: 'Published on Aug 20, 2017'
+    },
+  ];
+
+  res.render('pages/home', {
+    featuredVideos : featuredVideos,
+  });
 });
 
 router.get('/about', function( req, res, next) {

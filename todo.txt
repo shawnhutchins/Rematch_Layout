@@ -1,18 +1,31 @@
+NEXT 
+- Set up the embedded stream to show the people being hosted on the channel.
+
+
 GENERAL
 - Find some better fonts to try out.
 
 - Make the site mobile first by using min-width in the media querys instead of max-width.
 
-- Look into setting up the viewport more indepth. I have a 'meta' tag set but it just sets the scale to 1 for now.
+- Look into setting up the viewport more indepth. I have a 'meta' tag set but it 
+just sets the scale to 1 for now.
+
 
 HOME
-- Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
+- In the featured content use regx to extract the video id from the url.
+
+- Use the youtube api to get the TITLE and Date. Will allow user to just enter a 
+url and the rest will do it on its own.
+
+Done - Make the featuredContent generate with a FOR loop based on a JSON file so that adding or removing 
 featured content. Also simpler for someone else to edit without touching the layout.
+
 
 ABOUT
 - Make the social media links on the gamer bio cards into pretty buttons.
 
 Done - Fix the responsive design.
+
 
 HEADER
 
@@ -48,6 +61,10 @@ container or not. I plan on leaving it how it is now.
 
 
 STREAM
+- Set up the embedded stream to show the people being hosted on the channel.
+
+- Make the stream chat fit the screen down to 320 width.
+
 Done - Make the stream resize actively while retaining its aspect ratio.
 
 Done - Refine the responsive design, the smaller resolutions need work.
