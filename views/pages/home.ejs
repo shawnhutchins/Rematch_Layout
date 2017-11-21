@@ -25,6 +25,7 @@
         </div>
         <div class="contentMain">
           <div class="fContentWrapper">
+            <h3>FEATURED VIDEOS</h3>
             <% featuredVideos.forEach(function(video) { %>
               <div class="featuredContent">
                 <a href="<%= video.url %>">
@@ -36,6 +37,22 @@
                   <h3><%= video.title %></h3>
                   <span><%= video.date %></span>
                 </div> 
+              </div>
+            <% }); %>
+          </div>
+          <div class="fContentWrapper">
+            <h3>NEW VIDEOS</h3>
+            <% newVideos.forEach(function(video) { %>
+              <div class="featuredContent">
+                <a href="<%= video.url %>">
+                  <div class="contentImageWrapper">
+                    <img src="https://img.youtube.com/vi/<%= video.id %>/mqdefault.jpg">
+                  </div>
+                </a>
+                <div class="contentInfoWrapper">
+                  <h3><%= video.title %></h3>
+                  <span><%= video.date %></span>
+                </div>
               </div>
             <% }); %>
           </div>

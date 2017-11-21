@@ -45,6 +45,10 @@ body {
   background: #191919;
 }
 
+.fContentWrapper > h3 {
+  color: #999;
+}
+
 .featuredContent {
   background: #222;
   color: #999;

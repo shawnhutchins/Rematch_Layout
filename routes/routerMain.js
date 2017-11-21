@@ -10,10 +10,57 @@ router.get('/', function(req, res, next) {
       title: 'DREAM DADDY Ep. 2- Julian and Eli',
       date: 'Published on Aug 20, 2017'
     },
+    {
+      url: 'https://www.youtube.com/watch?v=7s-PxLGjhIw',
+      id: '7s-PxLGjhIw',
+      title: 'Virginia- The First Twenty',
+      date: 'Published on Aug 19, 2017'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=0DUMaV1bVHk',
+      id: '0DUMaV1bVHk',
+      title: 'Why you need a Wraith- Lawbreakers Blitzball',
+      date: 'Published on Aug 14, 2017'
+    },
+    { 
+      url: 'https://www.youtube.com/watch?v=z59Tz1AJsqc',
+      id: 'z59Tz1AJsqc',
+      title: 'Six Shots- The First Twenty',
+      date: 'Published on Aug 13, 2017'
+    }
   ];
+
+  var newVideos = [
+    {
+      url: 'https://www.youtube.com/watch?v=96J5YyRn80k',
+      id: '96J5YyRn80k',
+      title: 'DREAM DADDY Ep. 2- Julian and Eli',
+      date: 'Published on Aug 20, 2017'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=7s-PxLGjhIw',
+      id: '7s-PxLGjhIw',
+      title: 'Virginia- The First Twenty',
+      date: 'Published on Aug 19, 2017'
+    },
+    {
+      url: 'https://www.youtube.com/watch?v=0DUMaV1bVHk',
+      id: '0DUMaV1bVHk',
+      title: 'Why you need a Wraith- Lawbreakers Blitzball',
+      date: 'Published on Aug 14, 2017'
+    },
+    { 
+      url: 'https://www.youtube.com/watch?v=z59Tz1AJsqc',
+      id: 'z59Tz1AJsqc',
+      title: 'Six Shots- The First Twenty',
+      date: 'Published on Aug 13, 2017'
+    }
+  ];
+
 
   res.render('pages/home', {
     featuredVideos : featuredVideos,
+    newVideos      : newVideos,
   });
 });
 

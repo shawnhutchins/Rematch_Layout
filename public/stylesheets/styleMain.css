@@ -99,6 +99,7 @@ body {
   overflow: hidden;
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 .featuredContent {
   margin: 10% auto;
